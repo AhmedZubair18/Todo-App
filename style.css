@@ -1,0 +1,46 @@
+body{
+    background-color:crimson;
+
+}
+.container{
+    width: 365px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin-left:33% ;
+    margin-top: 5px;
+}
+.inp{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid;
+    outline: none;
+    font-size: 19px;
+}
+button{
+    background-color:blue;
+    color: white;
+    border-radius: 2px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+   cursor: pointer;
+   position: relative;
+   top: 2px;
+}
+button:hover{
+    background-color:darkblue;
+}
+.text ul{
+    position: relative;
+    background-color:yellow;
+    color: black;
+    font-size: 19px;
+    text-align: left;
+    padding: 5px;
+}
+.text ul svg{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
